@@ -4,5 +4,10 @@
     "baseUrl":"https://purescript-react-realworld.netlify.app/",
     "env":{
         "apiUrl":"https://conduit.productionready.io/api"
+    },
+    "video": false,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
     }
 }
